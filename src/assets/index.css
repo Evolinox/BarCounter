@@ -75,6 +75,12 @@
   body {
     @apply bg-background text-foreground;
     position: relative;
+    height: 100vh;
     overflow: hidden;
+
+    background-image: url("../../public/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
