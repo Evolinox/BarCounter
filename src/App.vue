@@ -5,7 +5,7 @@ import { onMounted } from 'vue';
 onMounted(() => {
   const colorMode = useColorMode();
 
-  colorMode.value = 'light';
+  colorMode.value = 'auto';
 });
 </script>
 
