@@ -58,7 +58,7 @@ function isPinComplete() {
   </div>
 </template>
 
-<style>
+<style scoped>
 .login-body {
   display: flex;
   justify-content: center;
